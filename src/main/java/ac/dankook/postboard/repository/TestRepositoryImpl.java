@@ -1,4 +1,4 @@
-package repository;
+package ac.dankook.postboard.repository;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
