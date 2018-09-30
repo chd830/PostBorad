@@ -9,7 +9,7 @@ public class TestRepositoryImpl {
     @Autowired
     SqlSession sqlSession;
 
-    public void testRepository() {
+    public void testMybatisRepository() {
         sqlSession.selectOne("test-mapper.selectData");
     }
 }
