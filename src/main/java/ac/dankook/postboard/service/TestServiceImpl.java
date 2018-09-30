@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import ac.dankook.postboard.repository.TestRepository;
 
 @Service
-public class TestServiceImpl {
+public class TestServiceImpl implements TestService {
     @Autowired
     TestRepository testRepository;
 
