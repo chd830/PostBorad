@@ -1,6 +1,8 @@
 package ac.dankook.postboard.repository;
 
 import org.apache.ibatis.session.SqlSession;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -8,8 +10,9 @@ import org.springframework.stereotype.Repository;
 public class TestRepositoryImpl implements TestRepository {
     @Autowired
     private SqlSession sqlSession;
-
+    static final Logger LOGGER = LoggerFactory.getLogger(TestRepositoryImpl.class);
     public void testMybatisRepository() {
-        sqlSession.selectOne("test-mapper.selectData");
+        LOGGER.debug("TestRepositoryImpl");
+        sqlSession.selectOne("testMapper.insertTestData");
     }
 }

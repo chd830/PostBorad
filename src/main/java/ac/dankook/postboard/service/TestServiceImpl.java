@@ -13,6 +13,7 @@ public class TestServiceImpl implements TestService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TestServiceImpl.class);
     public void testMybatisService() {
+        LOGGER.debug("TestServiceImpl");
         testRepository.testMybatisRepository();
     }
 }

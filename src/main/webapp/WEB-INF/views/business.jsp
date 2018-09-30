@@ -8,13 +8,16 @@
     <meta name="author" content="">
 
     <title>Small Business - Start Bootstrap Template</title>
-
+    <%--<script type="text/javascript" src="/resources/js/test.js"/>--%>
+    <link  type="text/css"  rel="stylesheet" href="/resources/css/small-business.css"/>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="/WEB-INF/resource/css/small-business.css" rel="stylesheet">
-
+  <%--<style>--%>
+    <%--.container {--%>
+      <%--background-color: #0c5460;--%>
+    <%--}--%>
+  <%--</style>--%>
   </head>
 
   <body>
