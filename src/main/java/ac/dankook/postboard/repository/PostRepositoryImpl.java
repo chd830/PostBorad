@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class TestRepositoryImpl implements TestRepository {
+public class PostRepositoryImpl implements PostRepository {
     @Autowired
     private SqlSession sqlSession;
-    static final Logger LOGGER = LoggerFactory.getLogger(TestRepositoryImpl.class);
+    static final Logger LOGGER = LoggerFactory.getLogger(PostRepositoryImpl.class);
     public void testMybatisRepository() {
         LOGGER.debug("TestRepositoryImpl");
         sqlSession.selectOne("testMapper.insertTestData");

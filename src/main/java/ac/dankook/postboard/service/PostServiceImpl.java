@@ -1,19 +1,20 @@
 package ac.dankook.postboard.service;
 
+import ac.dankook.postboard.repository.PostRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ac.dankook.postboard.repository.TestRepository;
 
 @Service
-public class TestServiceImpl implements TestService {
+public class PostServiceImpl implements PostService {
     @Autowired
-    TestRepository testRepository;
+    PostRepository postRepository;
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(TestServiceImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(PostServiceImpl.class);
+
     public void testMybatisService() {
         LOGGER.debug("TestServiceImpl");
-        testRepository.testMybatisRepository();
+        postRepository.testMybatisRepository();
     }
 }

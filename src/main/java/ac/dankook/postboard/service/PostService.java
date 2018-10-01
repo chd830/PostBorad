@@ -1,5 +1,5 @@
 package ac.dankook.postboard.service;
 
-public interface TestService {
+public interface PostService {
     void testMybatisService();
 }
