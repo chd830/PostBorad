@@ -109,7 +109,6 @@ body, input, button {
     animation: hop 1s;
     border-bottom: 4px solid dimgrey;
 }
-
 .float {
     display: inline-block;
     -webkit-transition-duration: 0.3s;

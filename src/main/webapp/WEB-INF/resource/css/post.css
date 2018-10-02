@@ -8,7 +8,9 @@ body {
   margin-top:50px;
   padding-top: 54px;
 }
-
+.row {
+  height: 300px;
+}
 @media (min-width: 992px) {
   body {
     margin-top:50px;
