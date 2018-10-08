@@ -16,9 +16,9 @@ public class PostRestController {
 
     static final Logger LOGGER = LoggerFactory.getLogger(PostRestController.class);
 
-    @RequestMapping(value = "/test", method = RequestMethod.GET)
-    public void test() {
-        LOGGER.debug("TestRestController");
-        postService.testMybatisService();
-    }
+//    @RequestMapping(value = "/test", method = RequestMethod.GET)
+//    public void test() {
+//        LOGGER.debug("TestRestController");
+//        postService.testMybatisService();
+//    }
 }
