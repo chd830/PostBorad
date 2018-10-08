@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class PostServiceImpl implements PostService {
     @Autowired
-    PostRepository postRepository;
+    private PostRepository postRepository;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PostServiceImpl.class);
 
