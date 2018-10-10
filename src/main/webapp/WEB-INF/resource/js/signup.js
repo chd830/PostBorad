@@ -13,13 +13,6 @@ document.getElementById("signupbtn").onclick = function () {
             userName: username,
             email: email,
             userPw: psw,
-        }, function () {
-            console.log("id: " + userId);
-            console.log("username: " + username);
-            console.log("email: " + email);
-            console.log("psw: " + psw + ", repsw: " + repsw);
-        })
-
+        });
     }
-
 }

@@ -3,7 +3,6 @@
 <configuration>
     <mappers>
         <mapper resource="/mybatis/test-mapper.xml"/>
-        <mapper resource="/mybatis/signin-mapper.xml"/>
-        <mapper resource="/mybatis/signup-mapper.xml"/>
+        <mapper resource="/mybatis/userdata-mapper.xml"/>
     </mappers>
 </configuration >
