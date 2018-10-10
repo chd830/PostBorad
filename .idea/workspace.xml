@@ -11,24 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c19f5094-f009-4a07-8fc6-fe497c80691b" name="Default" comment="``">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/userdata-mapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginRestController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/SignUpController.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/SignUpController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/SignUpRestController.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/SignUpRestController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/SignUpRepository.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/UserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/SignUpRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/UserRepositoryImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/LogInService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/LogInServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/SignUpService.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/SignUpServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/signin-mapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/signup-mapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/mybatis-config" afterPath="$PROJECT_DIR$/src/main/resources/properties/mybatis-config" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -151,7 +134,7 @@
           <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="410">
+                <state relative-caret-position="529">
                   <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
                   <folding />
                 </state>
@@ -949,16 +932,15 @@
       <workItem from="1538484133637" duration="4755000" />
       <workItem from="1538664392998" duration="598000" />
       <workItem from="1538698494342" duration="3177000" />
-      <workItem from="1538899172824" duration="29512000" />
+      <workItem from="1538899172824" duration="29628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104445000" />
+    <option name="totallyTimeSpent" value="104561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5044444" order="7" side_tool="true" content_ui="tabs" />
@@ -978,9 +960,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3876853" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3876853" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15359828" sideWeight="0.48549324" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36777776" sideWeight="0.51450676" order="2" side_tool="true" content_ui="tabs" />
@@ -1531,7 +1513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
+        <state relative-caret-position="529">
           <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
           <folding />
         </state>
