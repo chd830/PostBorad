@@ -7,6 +7,7 @@
 body {
   margin-top:50px;
   padding-top: 54px;
+  background-image: url('https://images.unsplash.com/photo-1532759627329-f664e1222001?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=537cade15160d9b107efb16a1456bb5d&auto=format&fit=crop&w=1952&q=80');
 }
 .row {
   height: 300px;

@@ -15,4 +15,8 @@ document.getElementById("loginBtn").onclick = function() {
             alert("wrong password!");
         }
     })
+};
+document.getElementById("signupBtn").onclick = function() {
+    window.open("signup","","width=500px,height=500px");
+    window.focus();
 }

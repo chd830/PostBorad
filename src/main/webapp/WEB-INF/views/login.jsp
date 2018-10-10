@@ -27,6 +27,7 @@
             </div>
 
             <button id="loginBtn" type="submit" class="float">Login</button>
+            <div id="signupBtn">SignUp</div>
         </form>
     </div>
     <!-- Bootstrap core JavaScript -->

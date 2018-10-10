@@ -14,5 +14,9 @@ document.getElementById("signupbtn").onclick = function () {
             email: email,
             userPw: psw,
         });
+        window.close();
     }
+}
+document.getElementById("cancelbtn").onclick = function() {
+    window.close();
 }
