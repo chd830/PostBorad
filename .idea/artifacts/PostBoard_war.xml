@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="PostBoard:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="PostBoard.war">
-      <element id="artifact" artifact-name="PostBoard:war exploded" />
-    </root>
-  </artifact>
-</component>
