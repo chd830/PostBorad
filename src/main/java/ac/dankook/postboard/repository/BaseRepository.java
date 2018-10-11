@@ -5,6 +5,7 @@ import java.util.List;
 /**
  * @param <T>  DB Domain에 맞는 Data Object
  * @param <PK> Data Object의 Priamry Key
+ * @author YoonJiSoo
  */
 public interface BaseRepository<T, PK> {
     T insert(T entity);
