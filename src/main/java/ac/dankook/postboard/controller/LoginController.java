@@ -30,6 +30,6 @@ public class LoginController {
         if(checkPw)
             return "post";
         else
-            return null;
+            return "login";
     }
 }
