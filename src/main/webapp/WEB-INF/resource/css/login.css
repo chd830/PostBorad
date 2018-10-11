@@ -174,7 +174,9 @@ body, input, button {
         margin-top: 0;
     }
 }
-
+#signupBtn:hover {
+    cursor:pointer;
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
     .login {

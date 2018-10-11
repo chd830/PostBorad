@@ -12,11 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c19f5094-f009-4a07-8fc6-fe497c80691b" name="Default" comment="``">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/post.css" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/post.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/test.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/test.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/test.js" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/post.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,348 +44,78 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/UserServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-            <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/String.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="1013" column="0" lean-forward="false" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="NOPLogger.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/NOPLogger.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-                  <folding>
-                    <marker date="1522067474095" expanded="false" signature="0:104" ph="/.../" />
-                    <marker date="1522067474095" expanded="true" signature="348:355" ph="{}" />
-                    <marker date="1522067474095" expanded="false" signature="384:395" ph=" { " />
-                    <marker date="1522067474095" expanded="false" signature="408:414" ph=" }" />
-                    <marker date="1522067474095" expanded="false" signature="457:468" ph=" { " />
-                    <marker date="1522067474095" expanded="false" signature="481:487" ph=" }" />
-                    <marker date="1522067474095" expanded="true" signature="529:536" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="593:600" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="671:678" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="743:750" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="805:812" ph="{}" />
-                    <marker date="1522067474095" expanded="false" signature="855:866" ph=" { " />
-                    <marker date="1522067474095" expanded="false" signature="879:885" ph=" }" />
-                    <marker date="1522067474095" expanded="true" signature="927:934" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="991:998" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1069:1076" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1141:1148" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1203:1210" ph="{}" />
-                    <marker date="1522067474095" expanded="false" signature="1252:1263" ph=" { " />
-                    <marker date="1522067474095" expanded="false" signature="1276:1282" ph=" }" />
-                    <marker date="1522067474095" expanded="true" signature="1323:1330" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1387:1394" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1464:1471" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1535:1542" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1596:1603" ph="{}" />
-                    <marker date="1522067474095" expanded="false" signature="1645:1656" ph=" { " />
-                    <marker date="1522067474095" expanded="false" signature="1669:1675" ph=" }" />
-                    <marker date="1522067474095" expanded="true" signature="1716:1723" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1780:1787" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1857:1864" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1928:1935" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="1989:1996" ph="{}" />
-                    <marker date="1522067474095" expanded="false" signature="2039:2050" ph=" { " />
-                    <marker date="1522067474095" expanded="false" signature="2063:2069" ph=" }" />
-                    <marker date="1522067474095" expanded="true" signature="2111:2118" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="2176:2183" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="2254:2261" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="2326:2333" ph="{}" />
-                    <marker date="1522067474095" expanded="true" signature="2388:2395" ph="{}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserRepositoryImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/UserRepositoryImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#434#435#0" expanded="true" />
-                    <element signature="e#505#506#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SqlSessionTemplate.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionTemplate.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="145">
-                  <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-                  <folding>
-                    <marker date="1536559441853" expanded="false" signature="0:104" ph="/.../" />
-                    <marker date="1536559441853" expanded="false" signature="142:964" ph="..." />
-                    <marker date="1536559441853" expanded="true" signature="1322:1425" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="1521:1684" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="1832:2341" ph="{...}" />
-                    <marker date="1536559441853" expanded="false" signature="2394:2405" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="2435:2441" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="2484:2495" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="2520:2526" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="2605:2616" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="2648:2654" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="2700:2711" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="2760:2766" ph=" }" />
-                    <marker date="1536559441853" expanded="true" signature="2831:2907" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="2980:3053" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="3144:3228" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="3340:3435" ph="{...}" />
-                    <marker date="1536559441853" expanded="false" signature="3492:3503" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="3555:3561" ph=" }" />
-                    <marker date="1536559441853" expanded="true" signature="3637:3716" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="3813:3903" ph="{...}" />
-                    <marker date="1536559441853" expanded="false" signature="3956:3967" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="4017:4023" ph=" }" />
-                    <marker date="1536559441853" expanded="true" signature="4095:4172" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="4265:4353" ph="{...}" />
-                    <marker date="1536559441853" expanded="false" signature="4418:4429" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="4477:4483" ph=" }" />
-                    <marker date="1536559441853" expanded="true" signature="4567:4642" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="4747:4833" ph="{...}" />
-                    <marker date="1536559441853" expanded="false" signature="4874:4885" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="4931:4937" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="4996:5007" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="5064:5070" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="5111:5122" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="5168:5174" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="5233:5244" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="5301:5307" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="5348:5359" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="5405:5411" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="5470:5481" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="5538:5544" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="5587:5598" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="5651:5657" ph=" }" />
-                    <marker date="1536559441853" expanded="true" signature="5684:5805" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="5845:5966" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="5995:6118" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="6160:6283" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="6309:6429" ph="{...}" />
-                    <marker date="1536559441853" expanded="false" signature="6459:6470" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="6504:6510" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="6555:6566" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="6615:6621" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="6660:6671" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="6715:6721" ph=" }" />
-                    <marker date="1536559441853" expanded="false" signature="6769:6780" ph=" { " />
-                    <marker date="1536559441853" expanded="false" signature="6826:6832" ph=" }" />
-                    <marker date="1536559441853" expanded="true" signature="6877:6884" ph="{}" />
-                    <marker date="1536559441853" expanded="true" signature="6955:8585" ph="{...}" />
-                    <marker date="1536559441853" expanded="true" signature="6997:7008" ph="{}" />
-                    <marker date="1536559441853" expanded="true" signature="7100:8579" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="signup.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LogIn.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/data/LogIn.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#126#127#0" expanded="true" />
-                    <element signature="e#155#156#0" expanded="true" />
-                    <element signature="e#297#298#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="signup.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signup.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="46" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="52" selection-end-column="47" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="483">
-                  <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/data/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#196#197#0" expanded="true" />
-                    <element signature="e#225#226#0" expanded="true" />
-                    <element signature="e#269#270#0" expanded="true" />
-                    <element signature="e#305#306#0" expanded="true" />
-                    <element signature="e#338#339#0" expanded="true" />
-                    <element signature="e#367#368#0" expanded="true" />
-                    <element signature="e#411#412#0" expanded="true" />
-                    <element signature="e#447#448#0" expanded="true" />
-                    <element signature="e#482#483#0" expanded="true" />
-                    <element signature="e#513#514#0" expanded="true" />
-                    <element signature="e#561#562#0" expanded="true" />
-                    <element signature="e#601#602#0" expanded="true" />
-                    <element signature="e#633#634#0" expanded="true" />
-                    <element signature="e#661#662#0" expanded="true" />
-                    <element signature="e#703#704#0" expanded="true" />
-                    <element signature="e#737#738#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="10" column="199" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="199" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PostRepositoryImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/PostRepositoryImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5b4586ee-c433-42d7-84ab-9b843209e802/console.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="userdata-mapper.xml" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/userdata-mapper.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-                  <folding>
-                    <marker date="1539153913349" expanded="true" signature="237:380" ph="INSERT INTO userTable... " />
-                    <marker date="1539153913349" expanded="true" signature="483:557" ph="SELECT userI... userTable" />
-                  </folding>
-                </state>
-              </provider>
-              <provider editor-type-id="JavaFX-Scene-Builder">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="post.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="post.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/post.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="post.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5b4586ee-c433-42d7-84ab-9b843209e802/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/post.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -404,10 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>build</find>
-      <find>mybatis-config</find>
-      <find>M</find>
-      <find>&lt;beans</find>
       <find>sessionfac</find>
       <find>sqlse</find>
       <find>signi</find>
@@ -434,6 +159,10 @@
       <find>mapper</find>
       <find>img</find>
       <find>background-im</find>
+      <find>google</find>
+      <find>gly</find>
+      <find>test.js</find>
+      <find>&lt;hr</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -456,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/test-mapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/TestRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/repository/PostRepository.java" />
@@ -466,11 +194,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/business.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.fxml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css" />
         <option value="$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/PostServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/signin-mapper.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/signin-mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/signup.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/signup.css" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/signup-mapper.fxml" />
@@ -503,9 +229,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5b4586ee-c433-42d7-84ab-9b843209e802/console.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/test.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/post.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/post.css" />
       </list>
     </option>
@@ -553,6 +282,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -703,8 +434,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1056,12 +785,13 @@
       <workItem from="1538484133637" duration="4755000" />
       <workItem from="1538664392998" duration="598000" />
       <workItem from="1538698494342" duration="3177000" />
-      <workItem from="1538899172824" duration="34860000" />
+      <workItem from="1538899172824" duration="39700000" />
+      <workItem from="1539247237300" duration="1744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109793000" />
+    <option name="totallyTimeSpent" value="116377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1073,7 +803,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17024705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35177228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1085,11 +815,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3876853" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3831243" sideWeight="0.49555555" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15359828" sideWeight="0.48549324" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33067274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1557465" sideWeight="0.48549324" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36777776" sideWeight="0.51450676" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49785176" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1258,19 +988,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/LogInService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/LogInService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/signup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1318,7 +1039,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,58 +1046,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/signup-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/signin-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/LogInServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/signup-mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/signin-mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/LogInServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/mybatis-config">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,9 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1403,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1411,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1419,7 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="563" column="0" lean-forward="false" selection-start-line="563" selection-start-column="0" selection-end-line="563" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,45 +1110,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <marker date="1536553600608" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536553600608" expanded="false" signature="162:711" ph="..." />
-            <marker date="1536553600608" expanded="false" signature="1105:1116" ph=" { " />
-            <marker date="1536553600608" expanded="false" signature="1137:1143" ph=" }" />
-            <marker date="1536553600608" expanded="false" signature="1206:1217" ph=" { " />
-            <marker date="1536553600608" expanded="false" signature="1237:1243" ph=" }" />
-            <marker date="1536553600608" expanded="true" signature="1365:1421" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="1500:1559" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="1669:1728" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="1822:1893" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="2033:2638" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="2788:4133" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="4212:4389" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="4485:4943" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="5008:6165" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="6250:6846" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="6929:7500" ph="{...}" />
-            <marker date="1536553600608" expanded="true" signature="7560:7893" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginRestController.java" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Boolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="160" column="8" lean-forward="false" selection-start-line="160" selection-start-column="8" selection-end-line="160" selection-end-column="8" />
-          <folding>
-            <element signature="e#4927#4928#0" expanded="false" />
-            <element signature="e#4968#4969#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1483,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,68 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <marker date="1536559441853" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1536559441853" expanded="false" signature="142:964" ph="..." />
-            <marker date="1536559441853" expanded="true" signature="1322:1425" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="1521:1684" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="1832:2341" ph="{...}" />
-            <marker date="1536559441853" expanded="false" signature="2394:2405" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="2435:2441" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="2484:2495" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="2520:2526" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="2605:2616" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="2648:2654" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="2700:2711" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="2760:2766" ph=" }" />
-            <marker date="1536559441853" expanded="true" signature="2831:2907" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="2980:3053" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="3144:3228" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="3340:3435" ph="{...}" />
-            <marker date="1536559441853" expanded="false" signature="3492:3503" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="3555:3561" ph=" }" />
-            <marker date="1536559441853" expanded="true" signature="3637:3716" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="3813:3903" ph="{...}" />
-            <marker date="1536559441853" expanded="false" signature="3956:3967" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="4017:4023" ph=" }" />
-            <marker date="1536559441853" expanded="true" signature="4095:4172" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="4265:4353" ph="{...}" />
-            <marker date="1536559441853" expanded="false" signature="4418:4429" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="4477:4483" ph=" }" />
-            <marker date="1536559441853" expanded="true" signature="4567:4642" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="4747:4833" ph="{...}" />
-            <marker date="1536559441853" expanded="false" signature="4874:4885" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="4931:4937" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="4996:5007" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="5064:5070" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="5111:5122" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="5168:5174" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="5233:5244" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="5301:5307" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="5348:5359" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="5405:5411" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="5470:5481" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="5538:5544" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="5587:5598" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="5651:5657" ph=" }" />
-            <marker date="1536559441853" expanded="true" signature="5684:5805" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="5845:5966" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="5995:6118" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="6160:6283" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="6309:6429" ph="{...}" />
-            <marker date="1536559441853" expanded="false" signature="6459:6470" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="6504:6510" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="6555:6566" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="6615:6621" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="6660:6671" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="6715:6721" ph=" }" />
-            <marker date="1536559441853" expanded="false" signature="6769:6780" ph=" { " />
-            <marker date="1536559441853" expanded="false" signature="6826:6832" ph=" }" />
-            <marker date="1536559441853" expanded="true" signature="6877:6884" ph="{}" />
-            <marker date="1536559441853" expanded="true" signature="6955:8585" ph="{...}" />
-            <marker date="1536559441853" expanded="true" signature="6997:7008" ph="{}" />
-            <marker date="1536559441853" expanded="true" signature="7100:8579" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1561,22 +1150,17 @@
         <state relative-caret-position="368">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#434#435#0" expanded="false" />
+            <element signature="e#505#506#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/data/LogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="269">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1584,47 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1522067474095" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522067474095" expanded="true" signature="348:355" ph="{}" />
-            <marker date="1522067474095" expanded="false" signature="384:395" ph=" { " />
-            <marker date="1522067474095" expanded="false" signature="408:414" ph=" }" />
-            <marker date="1522067474095" expanded="false" signature="457:468" ph=" { " />
-            <marker date="1522067474095" expanded="false" signature="481:487" ph=" }" />
-            <marker date="1522067474095" expanded="true" signature="529:536" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="593:600" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="671:678" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="743:750" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="805:812" ph="{}" />
-            <marker date="1522067474095" expanded="false" signature="855:866" ph=" { " />
-            <marker date="1522067474095" expanded="false" signature="879:885" ph=" }" />
-            <marker date="1522067474095" expanded="true" signature="927:934" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="991:998" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1069:1076" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1141:1148" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1203:1210" ph="{}" />
-            <marker date="1522067474095" expanded="false" signature="1252:1263" ph=" { " />
-            <marker date="1522067474095" expanded="false" signature="1276:1282" ph=" }" />
-            <marker date="1522067474095" expanded="true" signature="1323:1330" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1387:1394" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1464:1471" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1535:1542" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1596:1603" ph="{}" />
-            <marker date="1522067474095" expanded="false" signature="1645:1656" ph=" { " />
-            <marker date="1522067474095" expanded="false" signature="1669:1675" ph=" }" />
-            <marker date="1522067474095" expanded="true" signature="1716:1723" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1780:1787" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1857:1864" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1928:1935" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="1989:1996" ph="{}" />
-            <marker date="1522067474095" expanded="false" signature="2039:2050" ph=" { " />
-            <marker date="1522067474095" expanded="false" signature="2063:2069" ph=" }" />
-            <marker date="1522067474095" expanded="true" signature="2111:2118" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="2176:2183" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="2254:2261" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="2326:2333" ph="{}" />
-            <marker date="1522067474095" expanded="true" signature="2388:2395" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1632,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="1013" column="0" lean-forward="false" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1640,32 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/data/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1680,28 +1196,64 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/signup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="223">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/userdata-mapper.xml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="199" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="199" />
+        <state relative-caret-position="184">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1539153913349" expanded="true" signature="237:380" ph="INSERT INTO userTable... " />
+            <marker date="1539153913349" expanded="true" signature="483:557" ph="SELECT userI... userTable" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/test.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1709,42 +1261,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="75" lean-forward="true" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        <state relative-caret-position="92">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/resource/css/post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ac/dankook/postboard/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1752,23 +1288,9 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5b4586ee-c433-42d7-84ab-9b843209e802/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/userdata-mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1539153913349" expanded="true" signature="237:380" ph="INSERT INTO userTable... " />
-            <marker date="1539153913349" expanded="true" signature="483:557" ph="SELECT userI... userTable" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
   </component>
